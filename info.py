@@ -21,8 +21,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '8113878651:AAEER6DoZlhKsFCgWbQP0PEAeLUwrTu
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7254350117').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/BillyButcherIsHear") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002361409445'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/godmovies2')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002334247026').split()]
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/godmovies2','https://t.me/+xjQ3rxu5W0NhNzk1')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002334247026', '-1001731100650').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MOVIEBOT:MOVIEBOT@moviebot.4c2h9.mongodb.net/?retryWrites=true&w=majority&appName=MOVIEBOT")
