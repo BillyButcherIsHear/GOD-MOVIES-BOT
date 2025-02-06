@@ -137,6 +137,6 @@ python3 bot.py
 <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
 
-## ** Thanks To All Everyone In This Journey
+## ** Thanks To Everyone In This Journey
  <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
